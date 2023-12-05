@@ -33,7 +33,7 @@ def createSubBranchs():
 
     for number in digits:
         
-        arrSubBranchLength.append(digits[number]*20)
+        arrSubBranchLength.append(number*20)
     
     return arrSubBranchLength
 
